@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Emp Onboarding Table" max_length="40" name="x_377968_employee_emp_onboarding_table" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="300" name="comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Join" max_length="40" name="date_of_join" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Designation" max_length="100" name="designation" type="string"/>
+        <element label="Employee ID" max_length="40" name="employee_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element label="Experienced" max_length="40" name="experienced" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
